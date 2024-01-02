@@ -222,8 +222,59 @@ img{
     font-size: 2rem;
 }
 
+
 .footer{
     background-color: var(--negro);
-    padding-bottom: 3rem
-    margin-top: ;
+    padding-bottom: 3rem;
+    margin-top: 4rem;
 }
+
+
+/* Sobre Nosotros */  
+
+@media  screen and (min-width: 768px){
+        .sobre-nosotros{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 2rem ;
+        }
+}
+
+
+/* Estilos de la pestaña Curso */
+
+.curso{
+   padding: 3rem 0;
+   border-bottom: 1px solid var(--gris);
+
+}
+
+@media  screen and (min-width: 768px){
+    .curso{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+
+.curos:last-of-type{
+    border: none;
+}
+
+
+.widget-curso__label{
+        font-family: var(--fuenteHeading);
+        font-weight: 700;
+}
+
+.widget-curso__info{
+        font-weight: normal;
+}
+
+.widget-curso__label,
+.widget-curso__info{
+    font-size: 2rem;
+}
+
+
+
